@@ -7,9 +7,9 @@
 
 let output = ''
 
-for(let i = 1; i<=100; i++){
+for(let i = 1; 1<=100; i++){
     for(let j = 0; j<i; j++){
-        output += '*'
+        output = output + '*'  
     }
     output += '\n'
 }
